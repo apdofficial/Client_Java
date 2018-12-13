@@ -34,7 +34,7 @@ public class Client {
 
             while(notRequestedToStop){
 
-                System.out.print("Client : ");
+                System.out.print("Client: ");
 
                 strClient = input.nextLine();
                 outToServer.write(strClient);
